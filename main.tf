@@ -1,5 +1,5 @@
 resource "aws_s3_object" "index" {
-  bucket = siteoriginfirstlastmy
+  bucket = "siteoriginfirstlastmy"
   key    = "index.html"
   source = "index.html"
   acl = "public-read"
